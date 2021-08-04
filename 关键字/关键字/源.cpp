@@ -54,23 +54,22 @@
 //	return 0;
 //}
 //结果是五个a=2
-//void test()
-//{
-//	static int a = 1;//定义a是一个静态的局部变量
-////a保留了
-//	a++;
-//	printf("a=%d\n", a);
-//}
-//int main()
-//{
-//	int i = 0;
-//	while (i < 5)
-//	{
-//		test();
-//		i++;
-//	}
-//	return 0;
-//}
+void test()
+{
+	static int a = 1;//定义a是一个静态的局部变量a保留了
+	a++;
+	printf("a=%d\n", a);
+}
+int main()
+{
+	int i = 0;
+	while (i < 5)
+	{
+		test();
+		i++;
+	}
+	return 0;
+}
 //结果是a=2，a=3，a=4，a=5，a=6
 
 //struct-结构体关键字
