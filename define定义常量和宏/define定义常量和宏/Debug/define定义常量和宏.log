@@ -1,0 +1,4 @@
+﻿  t.c
+d:\初学c语言\define定义常量和宏\define定义常量和宏\t.c(21): warning C4005: “MAX”: 宏重定义
+  d:\初学c语言\define定义常量和宏\define定义常量和宏\t.c(4): note: 参见“MAX”的前一个定义
+  define定义常量和宏.vcxproj -> D:\初学c语言\define定义常量和宏\Debug\define定义常量和宏.exe
